@@ -1,6 +1,5 @@
 #include <iostream> 
-#include<stdio.h>  
-#include<conio.h>  
+#include<stdio.h>   
 #include<stdlib.h>  
 using namespace std;
 int main()  
@@ -68,5 +67,5 @@ cout << "Select an operation to perform a simple calculation in C++ Calculator"
      }  
      cout << "\n----------------------------------------- \n";  
      } while(opr != 6);  
-     getch();  
+     return 0; 
      }  
